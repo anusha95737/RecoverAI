@@ -115,3 +115,41 @@ Recovery Outcome
 Revenue Measurement
      ↓
 Audit Trail
+---
+
+## 🚀 Running the Project
+
+Install the required dependencies:
+
+pip install pandas numpy scikit-learn streamlit
+
+Run the application:
+
+python -m streamlit run app.py
+
+The RecoverAI dashboard will open in your browser.
+
+---
+
+## 🔐 Safety & Scope
+
+This prototype uses synthetic payment data.
+
+All payment recovery actions are simulated.
+
+No real customer payments are processed and no real money movement is performed.
+
+RecoverAI is designed as a prototype demonstrating intelligent payment recovery decision-making.
+
+---
+
+## 🎯 Future Improvements
+
+- Integration with real payment APIs
+- More historical payment data
+- Advanced failure-reason analysis
+- Customer communication through email/SMS
+- Real-time recovery monitoring
+- Model performance evaluation
+- Adaptive recovery strategies
+- Production-grade database and audit storage
