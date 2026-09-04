@@ -1,0 +1,11 @@
+payment_id,amount,status,failure_reason,previous_successes,previous_failures,retry_count,recovered
+P001,2499,failed,insufficient_funds,8,1,0,1
+P002,1499,failed,bank_declined,5,2,0,1
+P003,799,failed,network_error,3,1,0,1
+P004,4999,failed,insufficient_funds,2,5,1,0
+P005,999,failed,bank_declined,7,1,0,1
+P006,3499,failed,network_error,1,3,1,0
+P007,1999,failed,expired_card,0,2,0,0
+P008,5999,failed,bank_declined,10,1,0,1
+P009,1299,failed,network_error,4,1,0,1
+P010,2999,failed,insufficient_funds,1,4,1,0
